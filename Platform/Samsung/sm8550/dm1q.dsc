@@ -5,8 +5,7 @@ update for Samsung galaxy z flip5 model SM-F731B: [Defines]
   PLATFORM_VERSION               = 0.1
   DSC_SPECIFICATION              = 0x00010019
   OUTPUT_DIRECTORY               = Build/$(PLATFORM_NAME)
-- SUPPORTED_ARCHITECTURES        = AARCH64
-+ SUPPORTED_ARCHITECTURES        = AARCH64
+  SUPPORTED_ARCHITECTURES        = AARCH64
   BUILD_TARGETS                  = DEBUG|RELEASE
   SKUID_IDENTIFIER               = DEFAULT
   FLASH_DEFINITION               = Platform/Qualcomm/sm8550/sm8550.fdf
